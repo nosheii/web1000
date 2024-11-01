@@ -1,0 +1,126 @@
+html {
+  background-color:#0E382B;
+}
+a {
+  color: white;
+}
+
+.meny-middag-boks {
+    border: 2px solid white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.meny-middag-boks td,
+.meny-middag-boks th {
+    color: white;
+    text-align: left;
+    padding: 10px
+}
+.meny-middag .innhold {
+    display: flex;
+    justify-content: space-around;
+}
+.meny-middag table {
+    width: 50%; 
+    border-collapse: collapse; 
+  }
+.meny-middag h1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    color: white;
+    font-family: 'Courier', monospace;
+    font-style: bold;
+    padding: 15px;
+  }
+  
+  .tittel{
+    display: flex;
+    justify-content: center;
+    
+    font-family: Courier;
+    font-style: bold;
+    font-size: 45px;
+    color: white;
+  }
+  
+  .bilde {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .drikkemeny {
+    display: flex;
+    justify-content: center;
+    Column-gap: 20px;
+    padding: 50px;
+    align-items: center; 
+    background-color: 0E382B;
+  }
+  
+  .boks1, .boks2, .boks3, .boks4 {
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    
+    font-size: 20px;
+    
+    line-height: 1;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+  }
+  
+  .topping {
+    display: flex;
+    justify-content: center;
+    color: white; 
+  }
+  
+  .alkohol {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-family: Courier;
+    font-style: bold;
+    color: white;
+    text-align: center;
+  }
+  
+  .borderpic img {
+    width:500px;
+    height:110px;
+    top: 65px;
+    position:absolute;
+  }
+  .borderpic {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .box {
+    justify-content: absolute;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    padding-top:25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .map{
+    right: 150px;
+    top: 260px;
+    position:absolute;
+  }
+    
