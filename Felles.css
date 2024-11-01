@@ -1,5 +1,6 @@
 html {
   background-color:#0E382B;
+  font-family: 'Courier New', Courier, monospace;
 }
 a {
   color: white;
@@ -8,7 +9,6 @@ a {
 .meny-middag-boks {
     border: 2px solid white;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
 }
 .meny-middag-boks td,
 .meny-middag-boks th {
@@ -30,7 +30,6 @@ a {
     align-items: flex-start;
 
     color: white;
-    font-family: 'Courier', monospace;
     font-style: bold;
     padding: 15px;
   }
@@ -56,7 +55,6 @@ a {
     Column-gap: 20px;
     padding: 50px;
     align-items: center; 
-    background-color: 0E382B;
   }
   
   .boks1, .boks2, .boks3, .boks4 {
